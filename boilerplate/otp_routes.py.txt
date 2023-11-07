@@ -1,0 +1,55 @@
+##UPDATED TO USE DB_TOOLS
+@main.route('/verify', methods=['GET', 'POST'])
+def verify(phone_number):
+    if request.method == 'GET':
+        return render_template('verify.html', phone_number=phone_number)
+    
+    print(phone_number, file=sys.stdout)
+
+    code = request.form.get('code')
+
+    account_sid, auth_token, service_sid = get_credentials_from_env()
+    client = create_twilio_client(account_sid, auth_token)
+    is_verified = check_sms_verification(client, service_sid, phone_number, code)
+
+    if is_verified:
+        user = get_user_by_phone(phone_number)
+
+        if user is None:
+            user = create_user(phone_number, password=None, role='admin')
+
+            refresh_token = create_refresh_token(identity=user.id)
+            user = update_user(user, refresh_token=refresh_token)
+        login_user(user)
+
+        access_token = create_access_token(identity=user.id)
+
+        resp = make_response(redirect(url_for('account')))
+        set_access_cookies(resp, access_token)
+        return resp
+
+    else:
+        return render_template('login.html', error='Verification failed. Please try again.')
+from flask_jwt_extended import unset_jwt_cookies
+
+@main.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'GET':
+        return render_template('login.html')
+
+    if request.method == 'POST':
+        phone_number = '+1' + request.form.get('phone_number')
+        
+
+        account_sid, auth_token, service_sid = get_credentials_from_env()
+        client = create_twilio_client(account_sid, auth_token)
+        send_sms_verification(client, service_sid, phone_number)
+
+        return redirect(url_for('verify', phone_number=phone_number))
+
+@main.route('/logout', methods=['POST'])
+@login_required
+def logout():
+    resp = make_response(redirect(url_for('login')))
+    unset_jwt_cookies(resp)
+    return resp

@@ -1,0 +1,22 @@
+{
+    "app": {
+        "controllers": {
+            "files": ["admin.py", "data.py", "get_pages.py", "login.py", "main.py"]
+        },
+        "data": {
+            "files": ["encrypted_users.json"]
+        },
+        "services": {
+            "files": ["db_tools.py", "generate_key.py", "json_tools.py"]
+        },
+        "static": {
+            "files": []
+        },
+        "templates": {
+            "admin": {
+                "files": []
+            }
+        },
+        "files": ["config.py", "symmetric_key.key", "wsgi.py"]
+    }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "config.py",
+        "content": "",
+        "path": "app/config.py"
+    },
+    {
+        "name": "symmetric_key.key",
+        "content": "",
+        "path": "app/symmetric_key.key"
+    },
+    {
+        "name": "wsgi.py",
+        "content": "",
+        "path": "app/wsgi.py"
+    },
+    {
+        "name": "admin.py",
+        "content": "",
+        "path": "app/controllers/admin.py"
+    },
+    {
+        "name": "data.py",
+        "content": "",
+        "path": "app/controllers/data.py"
+    },
+    {
+        "name": "get_pages.py",
+        "content": "",
+        "path": "app/controllers/get_pages.py"
+    },
+    {
+        "name": "login.py",
+        "content": "",
+        "path": "app/controllers/login.py"
+    },
+    {
+        "name": "main.py",
+        "content": "",
+        "path": "app/controllers/main.py"
+    },
+    {
+        "name": "encrypted_users.json",
+        "content": "",
+        "path": "app/data/encrypted_users.json"
+    },
+    {
+        "name": "db_tools.py",
+        "content": "",
+        "path": "app/services/db_tools.py"
+    },
+    {
+        "name": "generate_key.py",
+        "content": "",
+        "path": "app/services/generate_key.py"
+    },
+    {
+        "name": "json_tools.py",
+        "content": "",
+        "path": "app/services/json_tools.py"
+    }
+]
