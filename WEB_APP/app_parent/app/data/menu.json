@@ -1,0 +1,18 @@
+[
+    
+    {
+        "name": "Home",
+        "link": "index",
+        "submenu": [
+            {"name": "submenu item 1", "link": "item-1"}
+        ]
+    },
+    {
+        "name": "Item 2",
+        "link": "admin",
+        "submenu": [
+            
+            {"name": "submenu item 1", "link": "item-2"}
+        ]
+    }
+]

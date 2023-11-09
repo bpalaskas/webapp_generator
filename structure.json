@@ -1,10 +1,11 @@
 {
-    "app": {
-        "controllers": {
+    "app_parent":
+    {"app": 
+        {"controllers": {
             "files": ["admin.py", "data.py", "get_pages.py", "login.py", "main.py"]
         },
         "data": {
-            "files": ["encrypted_users.json"]
+            "files": ["encrypted_users.json","menu.json"]
         },
         "services": {
             "files": ["db_tools.py", "generate_key.py", "json_tools.py"]
@@ -17,6 +18,11 @@
                 "files": []
             }
         },
-        "files": ["config.py", "symmetric_key.key", "wsgi.py"]
-    }
+        "files":["__init__.py"]
+        
+    },
+    "files": ["config.py", "symmetric_key.key", "wsgi.py"]
+   
+}
+    
 }
