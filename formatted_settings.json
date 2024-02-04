@@ -1,0 +1,475 @@
+[
+    {
+        "name": "url",
+        "value": "URL PLACEHOLDER",
+        "template_name": "***url***"
+    },
+    {
+        "name": "title",
+        "value": "TITLE PLACEHOLDER",
+        "template_name": "***title***"
+    },
+    {
+        "name": "tagline",
+        "value": "TAGLINE PLACEHOLDER",
+        "template_name": "***tagline***"
+    },
+    {
+        "name": "email",
+        "value": "EMAIL@EXAMPLE.COM",
+        "template_name": "***email***"
+    },
+    {
+        "name": "call_to_action",
+        "value": "",
+        "template_name": "***call_to_action***"
+    },
+    {
+        "name": "logo_small",
+        "value": "./logo_small.png",
+        "template_name": "***logo_small***"
+    },
+    {
+        "name": "logo_large",
+        "value": "./logo_large.png",
+        "template_name": "***logo_large***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "P",
+        "template_name": "***business_data:name:P***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "L",
+        "template_name": "***business_data:name:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "A",
+        "template_name": "***business_data:name:A***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "C",
+        "template_name": "***business_data:name:C***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "E",
+        "template_name": "***business_data:name:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "H",
+        "template_name": "***business_data:name:H***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "O",
+        "template_name": "***business_data:name:O***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "L",
+        "template_name": "***business_data:name:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "D",
+        "template_name": "***business_data:name:D***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "E",
+        "template_name": "***business_data:name:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "name",
+        "value": "R",
+        "template_name": "***business_data:name:R***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "P",
+        "template_name": "***business_data:address:P***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "L",
+        "template_name": "***business_data:address:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "A",
+        "template_name": "***business_data:address:A***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "C",
+        "template_name": "***business_data:address:C***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "E",
+        "template_name": "***business_data:address:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "H",
+        "template_name": "***business_data:address:H***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "O",
+        "template_name": "***business_data:address:O***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "L",
+        "template_name": "***business_data:address:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "D",
+        "template_name": "***business_data:address:D***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "E",
+        "template_name": "***business_data:address:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "address",
+        "value": "R",
+        "template_name": "***business_data:address:R***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "P",
+        "template_name": "***business_data:phone number:P***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "L",
+        "template_name": "***business_data:phone number:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "A",
+        "template_name": "***business_data:phone number:A***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "C",
+        "template_name": "***business_data:phone number:C***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "E",
+        "template_name": "***business_data:phone number:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "H",
+        "template_name": "***business_data:phone number:H***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "O",
+        "template_name": "***business_data:phone number:O***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "L",
+        "template_name": "***business_data:phone number:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "D",
+        "template_name": "***business_data:phone number:D***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "E",
+        "template_name": "***business_data:phone number:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "phone number",
+        "value": "R",
+        "template_name": "***business_data:phone number:R***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "P",
+        "template_name": "***business_data:email:P***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "L",
+        "template_name": "***business_data:email:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "A",
+        "template_name": "***business_data:email:A***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "C",
+        "template_name": "***business_data:email:C***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "E",
+        "template_name": "***business_data:email:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "H",
+        "template_name": "***business_data:email:H***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "O",
+        "template_name": "***business_data:email:O***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "L",
+        "template_name": "***business_data:email:L***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "D",
+        "template_name": "***business_data:email:D***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "E",
+        "template_name": "***business_data:email:E***"
+    },
+    {
+        "parent_name": "business_data",
+        "name": "email",
+        "value": "R",
+        "template_name": "***business_data:email:R***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_1",
+        "value": "header",
+        "template_name": "***homepage:section_1:header***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_1",
+        "value": "hero_image",
+        "template_name": "***homepage:section_1:hero_image***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_1",
+        "value": "hero_header",
+        "template_name": "***homepage:section_1:hero_header***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_1",
+        "value": "tagline",
+        "template_name": "***homepage:section_1:tagline***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_1",
+        "value": "call_to_action",
+        "template_name": "***homepage:section_1:call_to_action***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_1",
+        "value": "images",
+        "template_name": "***homepage:section_1:images***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_2",
+        "value": "header",
+        "template_name": "***homepage:section_2:header***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_2",
+        "value": "paragraph",
+        "template_name": "***homepage:section_2:paragraph***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_2",
+        "value": "call_to_action",
+        "template_name": "***homepage:section_2:call_to_action***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "section_2",
+        "value": "images",
+        "template_name": "***homepage:section_2:images***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "services_section",
+        "value": "header",
+        "template_name": "***homepage:services_section:header***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "services_section",
+        "value": "paragraph",
+        "template_name": "***homepage:services_section:paragraph***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "services_section",
+        "value": "services_list",
+        "template_name": "***homepage:services_section:services_list***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "contact_section",
+        "value": "header",
+        "template_name": "***homepage:contact_section:header***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "contact_section",
+        "value": "paragraph",
+        "template_name": "***homepage:contact_section:paragraph***"
+    },
+    {
+        "parent_name": "homepage",
+        "name": "contact_section",
+        "value": "form_link",
+        "template_name": "***homepage:contact_section:form_link***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_1",
+        "value": "header",
+        "template_name": "***services_page:section_1:header***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_1",
+        "value": "hero_image",
+        "template_name": "***services_page:section_1:hero_image***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_1",
+        "value": "paragraph",
+        "template_name": "***services_page:section_1:paragraph***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_1",
+        "value": "call_to_action",
+        "template_name": "***services_page:section_1:call_to_action***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_1",
+        "value": "images",
+        "template_name": "***services_page:section_1:images***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_2",
+        "value": "header",
+        "template_name": "***services_page:section_2:header***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_2",
+        "value": "paragraph",
+        "template_name": "***services_page:section_2:paragraph***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_2",
+        "value": "call to action",
+        "template_name": "***services_page:section_2:call to action***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "section_2",
+        "value": "images",
+        "template_name": "***services_page:section_2:images***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "services_list",
+        "value": "header",
+        "template_name": "***services_page:services_list:header***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "services_list",
+        "value": "description",
+        "template_name": "***services_page:services_list:description***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "services_list",
+        "value": "services_list",
+        "template_name": "***services_page:services_list:services_list***"
+    },
+    {
+        "parent_name": "services_page",
+        "name": "services_list",
+        "value": "images",
+        "template_name": "***services_page:services_list:images***"
+    }
+]

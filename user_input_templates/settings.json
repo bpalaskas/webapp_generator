@@ -1,0 +1,87 @@
+{
+    "website": {
+        "url": "URL PLACEHOLDER",
+        "title": "TITLE PLACEHOLDER",
+        "tagline":"TAGLINE PLACEHOLDER",
+        "email":"EMAIL@EXAMPLE.COM",
+        "phone_number":"5705750750",
+        "call_to_action":"CTA PLACEHOLDER",
+        "logo_small":"./logo_small.png",
+        "logo_large":"./logo_large.png",
+        "business_data":{
+            "name":"PLACEHOLDER",
+            "address":"PLACEHOLDER",
+            "phone number":"PLACEHOLDER",
+            "email":"PLACEHOLDER"
+
+        },
+        "homepage":
+        {"section_1":
+            {
+                "header":"PLACEHOLDER",
+                "hero_image":"hero.png",
+                "hero_header":"PLACEHOLDER",
+                "tagline":"PLACEHOLDER",
+                "call_to_action":"PLACEHOLDER",
+                "images":{}
+            },
+            "section_2":
+            {
+                "header":"PLACEHOLDER",
+                "paragraph":"PLACEHOLDER",
+                "call_to_action":"PLACEHOLDER",
+                "images":{}
+            },
+            "services_section":
+            {
+                "header":"Our Services",
+                "paragraph":"",
+                "services_list":[
+                    {"header":"",
+                    "paragraph":"",
+                    "image":""},
+                    {"header":"",
+                    "paragraph":"",
+                    "image":""}
+                ]
+            },
+            "contact_section":{
+                "header":"Get in Touch",
+                "paragraph":"",
+                "form_link":""
+            }
+        },
+        "services_page":
+        {"section_1":
+            {
+                "header":"",
+                "hero_image":"hero.png",
+                "paragraph":"",
+                "call_to_action":"",
+                "images":{}
+            },
+        "section_2":
+        {
+            "header":"",
+            "paragraph":"",
+            "call to action":"",
+            "images":[]
+        },
+        "services_list":
+        {
+            "header":"Our Services",
+            "description":"",
+            "services_list":[
+                {"header":"",
+                    "paragraph":"",
+                    "image":""},
+                    {"header":"",
+                    "paragraph":"",
+                    "image":""}
+            ],
+            "images":[]
+        }
+           
+        }
+    }
+}

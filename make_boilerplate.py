@@ -25,13 +25,11 @@ def compress_boilerplate(data):
                 try:
                     current_obj_content = return_file_contents(current_object_path)
                     print('file contents retrieved')
-                    # Update the content of the object at the found index
                     boilerplate_json[index]['content'] = current_obj_content
                     print("success")
                 except Exception as e:
-                    print('##########')
                     print(f"Error while updating object with name {name}: {e}")
-                    print('##########')
+                   
             else:
                 print(f'No object with name {name} found.')
     return boilerplate_json
@@ -39,26 +37,23 @@ def compress_boilerplate(data):
 def write_boilerplate_content(boilerplate_data):
     prepared_json = compress_boilerplate(boilerplate_data)
     return prepared_json
+#recursion
+def traverse_structure(structure, path=''):
+    converted_data = []
+    if 'files' in structure:
+        for file_name in structure['files']:
+            file_path = os.path.join(path, file_name)
+            converted_data.append({"name": file_name, "content": "", "path": file_path})
+    for folder_name, sub_structure in structure.items():
+        if folder_name != 'files':
+            converted_data.extend(traverse_structure(sub_structure, os.path.join(path, folder_name)))
+    return converted_data
 
 def convert_folder_structure(folder_structure_path):
     with open(folder_structure_path, 'r') as fs_file:
         folder_structure_data = json.load(fs_file)
+    return traverse_structure(folder_structure_data)
 
-    converted_data = []
-
-    #recursion
-    def traverse_structure(structure, path=''):
-        if 'files' in structure:
-            for file_name in structure['files']:
-                file_path = os.path.join(path, file_name)
-                converted_data.append({"name": file_name, "content": "", "path": file_path})
-        for folder_name, sub_structure in structure.items():
-            if folder_name != 'files':
-                traverse_structure(sub_structure, os.path.join(path, folder_name))
-
-    traverse_structure(folder_structure_data)
-
-    return converted_data
 
 def write_contents_to_files(data, base_directory):
     if not isinstance(data, list):
@@ -66,6 +61,7 @@ def write_contents_to_files(data, base_directory):
     base_directory = os.path.normpath(base_directory)
 
     for obj in data:
+        print('writing content')
         name = obj.get("name")
         content = obj.get("content", "")
         rel_path = obj.get("path")

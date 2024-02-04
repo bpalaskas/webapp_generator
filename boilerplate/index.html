@@ -1,0 +1,114 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<main class="l-main">
+<section class="home" id="home">
+    <div class="home__container bd-container bd-grid">
+        <div class="home__data" data-sr-id="1" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><br>
+            <h1 class="home__title">***title***</h1>
+            <h2 class="home__subtitle">***tagline***</h2>
+            <a href="***call_to_action_link***" class="button">***homepage:section_1:call_to_action***</a>
+        </div>
+        <img src="***homepage:section_1:hero_image***" alt="" class="home__img" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;">
+    </div>
+</section>
+
+<!--========== ABOUT ==========-->
+<section class="about section bd-container" id="about">
+    <div class="about__container  bd-grid">
+        <div class="about__data" data-sr-id="4" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1);">
+            <span class="section-subtitle about__initial"><b><h2>***homepage:section_1:header***</h2></b></span>
+            <h4 class="section-title about__initial">T***homepage:section_1:tagline***<br> </h4>
+            <p class="about__description">***homepage:section_1:paragraph***</p>
+            <br>
+        </div>
+
+        <img src="./logo.png" alt="" class="about__img" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1);">
+    </div>
+</section>
+
+<!--========== SERVICES ==========-->
+
+<!--###############NEW SERVICES SECTION############### -->
+
+
+<section class="services section bd-container" id="services">
+    <span class="section-subtitle"></span>
+    <h2 class="section-title">***homepage:services_section:header***</h2>
+    
+    <div class="services__container  bd-grid">
+        {%for service in services_list%}
+        <div class="menu__content1">
+            <div class="services__content" data-sr-id="6" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1);">
+                
+            <img src="{service['image']}" alt="" class="services__img">
+            <h3 class="services__title">{service['name']}</h3>
+            <p class="services__description">
+              {service['paragraph']}  
+            </p>
+        </div>
+      </div>
+
+     
+    </div>
+</section>
+
+
+<!--###############END NEW SERVICES SECTION############### -->
+
+<!--===== OTHER SERVICES =======-->
+<section class="app section bd-container">
+    <div class="app__container bd-grid">
+        <br><p><br></p><h2 align="center">***homepage:section_2:header***</h2>
+        <div class="app__data" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1);">
+        </span>
+           <p class="service1">
+            ***homepage:section_2:paragraph***
+            </p>
+        </div>
+
+            <p><br></p>
+    </div>
+</section>
+
+<!--========== CONTACT US ==========-->
+<!--######COGNITO BUTTON RESTYLING####-->
+<style>
+  .contact__data button{
+    display: inline-block;
+    background-color: #45b2ce;
+    color: #FFF;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+    justify-self: center;
+
+  }
+  .contact__data button:hover{
+    
+  background-color: var(--first-color-alt);}
+</style>
+<section class="contact section bd-container" id="contact">
+    <div class="contact__container bd-grid">
+        <div class="contact__data" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1);">
+            <span class="section-subtitle contact__initial">Let's talk</span>
+            <h2 class="section-title contact__initial">Contact us</h2>
+            <p class="contact__description">***homepage:contact_section:paragraph*** Call us at <a href="tel:***phone_number***">***phone_number***</a>
+            or use the form below
+            </p>
+            <br>
+            <p>
+                ***homepage:contact_section:form_link***
+
+            </p>
+        </div>
+        
+        <div class="contact__button" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1);">
+            <a href="mailto:***email***" class="button">Email us</a>
+        </div>
+    </div>
+</section>
+</main>
+<section id="contact"></section>
+
+{%endblock content%}
